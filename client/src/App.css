@@ -1,0 +1,333 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.myButtonSel{
+  border-radius: 0 !important;
+}
+
+.myButtonLog{
+  color: whitesmoke !important;
+}
+.myButtonLog:hover{
+  background-color: #2eacbf !important;
+}
+
+
+.futurama_fry {
+  margin:auto;
+  width: 577px;
+  height: 433px;
+  background-image:url("memes/futurama_fry.png");
+  resize: both; 
+  text-align: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.one_does_not_simply {
+  margin: auto;
+  width: 651px;
+  height: 383px;
+  background-image:url("memes/one_does_not_simply.png");
+  resize: both; 
+  text-align: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.marked_safe_from {
+  margin: auto;
+  width: 618px;
+  height: 400px;
+  background-image:url("memes/marked_safe_from.png");
+  resize: both; 
+  text-align: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.goosebumps {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-image:url("memes/goosebumps.png");
+  resize: both; 
+  text-align: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.hide_the_pain {
+  margin: auto;
+  width: 500px;
+  height: 626px;
+  background-image:url("memes/hide_the_pain.png");
+  resize: both; 
+  text-align: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.if_i_had_one {
+  margin: auto;
+  width: 500px;
+  height: 696px;
+  background-image:url("memes/if_i_had_one.png");
+  resize: both; 
+  text-align: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.meme-font-white {
+  position: absolute; 
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+.meme-font-black {
+  position: absolute; 
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: 'Times New Roman', Times, serif;  
+  font-size: 2em;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #FFF,
+  -2px -2px 0 #FFF,
+  2px -2px 0 #FFF,
+  -2px 2px 0 #FFF,
+  0px 2px 0 #FFF,
+  2px 0px 0 #FFF,
+  0px -2px 0 #FFF,
+  -2px 0px 0 #FFF,
+  2px 2px 5px #FFF;
+} 
+.meme-font-yellow {
+  position: absolute; 
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: 'Times New Roman', Times, serif;  
+  font-size: 2em;
+  text-transform: uppercase;
+  color: yellow;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+.meme-font-red {
+  position: absolute; 
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: red;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+
+.arial-white{
+  position:absolute;
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase !important;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+.arial-black{
+  position:absolute;
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase !important;
+  color: black;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #FFF,
+  -2px -2px 0 #FFF,
+  2px -2px 0 #FFF,
+  -2px 2px 0 #FFF,
+  0px 2px 0 #FFF,
+  2px 0px 0 #FFF,
+  0px -2px 0 #FFF,
+  -2px 0px 0 #FFF,
+  2px 2px 5px #FFF;
+}
+.arial-yellow{
+  position:absolute;
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase !important;
+  color: yellow;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+.arial-red{
+  position:absolute;
+  left: 0;
+  right: 0; 
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase !important;
+  color: red;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000,
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  0px 2px 0 #000,
+  2px 0px 0 #000,
+  0px -2px 0 #000,
+  -2px 0px 0 #000,
+  2px 2px 5px #000;
+}
+
+.bottom {
+   bottom: 0;
+ }
+
+.top {
+   top: 0;
+ }
+.center{
+  top:50%;
+}
+
+h2{
+  padding: 1rem;
+  color:#282c34;
+  margin-bottom: 0px !important;
+}
+
+.list-group-item{
+  color:#282c34 !important ;
+  border-width: 0px !important;
+  margin-top: 2px !important;
+  margin-left: 0px !important;
+  margin-bottom: 2px !important;
+  border-radius: 0% !important;
+  width: fit-content !important;
+}
+.list-group-item:hover{
+  color: whitesmoke  !important;
+  text-decoration: none;
+  background-color: #2eacbf !important;
+  border-width: 0px !important;
+  margin-top: 2px !important;
+  margin-left: 0px !important;
+  margin-bottom: 2px !important;
+}
+.active{
+  background-color: #2eacbf !important ;
+  color: white  !important;
+  border-width: 0px !important;
+  margin-top: 2px !important;
+  margin-left: 0px !important;
+  margin-bottom: 2px !important;
+}
+.active:hover{
+  background-color: #17a2b8 !important ;
+  color: whitesmoke  !important;
+  border-width: 0px !important;
+  margin-top: 2px !important;
+  margin-left: 0px !important;
+  margin-bottom: 2px !important;
+}
+@media screen and (max-width: 768px){}
+

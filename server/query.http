@@ -1,0 +1,10 @@
+
+GET http://localhost:3001/api/memes
+
+###
+POST http://localhost:3001/api/memes
+Content-Type: application/json
+
+{"id": 14, "title" :"new_try", "image":"futurama_fry", "top":"not sure if everything is expensive", "center":"", "bottom":"or i am just poor", "font":"meme-font", "color":"white", "visibility":0, "creator":1}
+
+###
