@@ -13,11 +13,16 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: label
     attributes:
       label: Label
-      description: Please enter a label starting with "project:"
-      placeholder: "project:Xmeta"
+      description: Please select a label.
+      options:
+        - label: MDHmeta
+        - label: InsightsMeta
+        - label: EDSCmeta
+        - label: ISMSmeta
+        - label: Other
     validations:
       required: true
