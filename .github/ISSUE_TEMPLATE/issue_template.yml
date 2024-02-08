@@ -8,7 +8,7 @@ body:
     attributes:
       label: Issue Title
       description: Please enter the name of a specific view followed by a colon and a little comment.
-      placeholder: ViewName: Brief comment
+      placeholder: "e.g., ViewName: Brief comment"
     validations:
       required: true
 
