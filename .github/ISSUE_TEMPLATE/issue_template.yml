@@ -1,1 +1,23 @@
+name: Issue report
+description: Report an issue
+labels: ["project:"]
 
+title: "ViewName: Brief comment"
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the issue in detail.
+    validations:
+      required: true
+
+  - type: input
+    id: label
+    attributes:
+      label: Label
+      description: Please enter a label starting with "project:"
+      placeholder: "project:Xmeta"
+    validations:
+      required: true
