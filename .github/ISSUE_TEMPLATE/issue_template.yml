@@ -2,15 +2,8 @@ name: Issue report
 description: Report an issue
 labels: ["project:"]
 
-title:
-  - type: input
-    id: title
-    attributes:
-      label: Issue Title
-      description: Please enter the name of a specific view followed by a colon and a little comment.
-      placeholder: "ViewName: Brief comment"
-    validations:
-      required: true
+title: "ViewName: Brief comment"
+
 body:
   - type: textarea
     id: description
