@@ -19,10 +19,10 @@ body:
       label: Label
       description: Please select a label.
       options:
-        - label: MDHmeta
-        - label: InsightsMeta
-        - label: EDSCmeta
-        - label: ISMSmeta
-        - label: Other
+        - MDHmeta
+        - InsightsMeta
+        - EDSCmeta
+        - ISMSmeta
+        - Other
     validations:
       required: true
