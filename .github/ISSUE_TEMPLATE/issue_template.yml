@@ -8,7 +8,7 @@ body:
     attributes:
       label: Issue Title
       description: Please enter the name of a specific view followed by a colon and a little comment.
-      placeholder: "e.g., ViewName: Brief comment"
+      placeholder: "ViewName: Brief comment"
     validations:
       required: true
 
@@ -25,6 +25,6 @@ body:
     attributes:
       label: Label
       description: Please enter a label starting with "project:"
-      placeholder: project:Xmeta
+      placeholder: "project:Xmeta"
     validations:
       required: true
