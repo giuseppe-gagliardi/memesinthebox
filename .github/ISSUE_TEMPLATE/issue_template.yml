@@ -2,7 +2,7 @@ name: Issue report
 description: Report an issue
 labels: ["project:"]
 
-body:
+title:
   - type: input
     id: title
     attributes:
@@ -11,7 +11,7 @@ body:
       placeholder: "ViewName: Brief comment"
     validations:
       required: true
-
+body:
   - type: textarea
     id: description
     attributes:
